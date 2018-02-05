@@ -15,6 +15,9 @@ sort_rand() {
     Linux)
       sort -R
       ;;
+    FreeBSD)
+      sort -R
+      ;;
     Darwin)
       ruby -e 'puts STDIN.readlines.shuffle'
       ;;
